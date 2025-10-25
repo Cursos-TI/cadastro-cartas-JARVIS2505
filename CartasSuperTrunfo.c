@@ -1,5 +1,7 @@
 #include <stdio.h>
  int main(){
+
+   // essa é a estrutura basica do codigo, onde sera mostrado as cartas de super trunfo//
     char estado;
     char codigo[20];
     char nome_da_cidade[50];
@@ -10,6 +12,7 @@
     float pib_per_capita;
     float densidade_populacional;
 
+   // dessa forma sera mostrado os dados da carta 1//
     printf("Carta 1: \n");
     printf("Estado: A\n");
     printf("Codigo: A01\n");
@@ -21,6 +24,7 @@
     printf("Pib per capita: R$ 73.271,00\n");
     printf("Densidade populacional: 184,02 hab/km²\n\n");
 
+   // Essa é a segunda estrutura basica do codigo, onde sera mostrado os dados da carta 2//
     char estado2;
     char codigo2[20];
     char nome_da_cidade2[50];
@@ -31,6 +35,7 @@
     float pib_per_capoita2;
     float densidade_populacional2;
 
+   // E essa é a sseugunda carta que sera mostrada//
     printf("Carta : 2 \n");
     printf("Estado: B\n", estado2);
     printf("Codigo: B02\n", codigo2);
