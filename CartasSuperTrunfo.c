@@ -79,9 +79,9 @@ int main() {
 
     if (super_poder1 > super_poder2) {
         printf("Super Poder: Carta 1 venceu \n");
-        } else {
+    } else {
         printf("Super Poder: Carta 2 venceu \n");
-        }
-        return 0;
     }
+    return 0;
+}
  
