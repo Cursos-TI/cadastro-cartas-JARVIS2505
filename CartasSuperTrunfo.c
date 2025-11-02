@@ -55,7 +55,7 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
     printf("Super Poder: %.2f\n\n", super_poder2);
 
-    // Comparações com if e else
+    // Comparações detalhadas
     printf("Comparação de Cartas:\n\n");
 
     printf("População: Carta %d venceu (%d)\n", (populacao1 > populacao2) ? 1 : 2, (populacao1 > populacao2) ? 1 : 0);
@@ -63,7 +63,7 @@ int main() {
     printf("PIB: Carta %d venceu (%d)\n", (pib1 > pib2) ? 1 : 2, (pib1 > pib2) ? 1 : 0);
     printf("Pontos Turísticos: Carta %d venceu (%d)\n", (pontos_turisticos1 > pontos_turisticos2) ? 1 : 2, (pontos_turisticos1 > pontos_turisticos2) ? 1 : 0);
 
-    // Comparações detalhadas
+    // Comparações com if else
     printf("\nComparações Detalhadas:\n");
     if (densidade_populacional1 < densidade_populacional2) {
         printf("Densidade Populacional: Carta 1 venceu \n");
